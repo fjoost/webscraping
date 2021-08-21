@@ -1,3 +1,8 @@
+/* INPUTS */
+
+// string search = iphone
+// number pages = 10
+
 if (input.country)
     country(input.country);
 navigate(`https://www.amazon.com/s?k=${input.search}`);
