@@ -2,8 +2,8 @@
 
 // string search = departamento
 
-let url = `https://www.portalinmobiliario.com/venta/departamento`;
-navigate(url);
+var url1 = `https://www.portalinmobiliario.com/venta/departamento`;
+navigate(url1);
 let contador = 0;
 let page_data = parse();
 var paginas = (parseInt(page_data.Paginass.replace('de ', '')));
@@ -12,7 +12,7 @@ for (let i = 1; i <= paginas; i++) {
         console.log('paginas :', paginas);
 //         console.log(parseInt(page_data.Paginass.replace('de ', '')));
         console.log('vuelta :', i, 'contador :', contador, url);
-        //next_stage({url, country: input.country, search: input.search});
+        next_stage({url: url1});
     }
     if (i == 2) {
         let url = `https://www.portalinmobiliario.com/venta/departamento/_Desde_`;

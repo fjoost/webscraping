@@ -1,5 +1,2 @@
-if (input.country)
-    country(input.country);
-navigate(input.url);
-let products = parse().products;
-collect(products);
+navigate('https://www.portalinmobiliario.com/MLC-637353847-hermoso-y-amplio-dp-vista-despejada-y-2-dormitorios-grande-_JM#position=1&search_layout=stack&type=item&tracking_id=cb1efb72-c11e-411c-9dc2-afce55188492');
+collect(parse());

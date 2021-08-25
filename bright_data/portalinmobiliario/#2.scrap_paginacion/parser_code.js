@@ -1,35 +1,45 @@
-let products = $('[data-component-type="s-search-result"]').toArray().map(el => {
-    let $el = $(el);
-    let desc_el = $(el).children('.sg-col').eq(1);
-    let title_el = $(el).find('h2 a.a-text-normal').eq(0);
-    let name_el = title_el.find('span').eq(0);
-    let rating_el = $(el).find('span[aria-label*=stars]').eq(0).parent();
-    let image_el = $(el)
-        .find('span[data-component-type="s-product-image"] img').eq(0);
-    let price_el = $(el).find('.a-price:not([data-a-strike])').eq(0);
-    let previous_price_el = $(el).find('.a-price[data-a-strike]').eq(0);
-    let reviews = rating_el.find('span[aria-label]').eq(1).attr('aria-label');
-    let parse_price = el => {
-        let price = $(el).find('.a-offscreen').eq(0).text();
-        return parseFloat(price.replace(/^\D+/, '').replace(/,/g, ''));
-    };
-    let feature_section_el = $(el).find('.a-section').eq(-1);
-    let features = $(feature_section_el).find('.a-row').toArray().map(
-        el => $(el).text().replace('\n', '').trim());
-    return {
-        search: input.search,
-        title: name_el.text().replace('\n', '').trim(),
-        url: 'amazon.com' + $el.find('[data-component-type="s-product-image"]').find('a').attr('href'),
-        sponsored: $el.find('.s-label-popover .s-label-popover-default').eq(0).text().trim().toLowerCase() == 'sponsored',
-        rating: rating_el.find('span[aria-label]').eq(0)
-            .attr('aria-label') || null,
-        reviews: reviews ? +(reviews.replace(/\D/, '')) : null,
-        price: parse_price(price_el),
-        previous_price: parse_price(previous_price_el),
-        features,
-        image: image_el.attr('src'),
-        imageset: image_el.attr('srcset'),
-    };
-})
-
-return { products };
+{
+    "items": {
+    "multi": true,
+        "selector": "li.ui-search-layout__item",
+        "type": "object",
+        "children": {
+        "es_proyecto": {
+            "selector": "span.ui-search-styled-label.ui-search-item__highlight-label__text:nth-child(1)",
+                "type": "text"
+        },
+        "es_desde": {
+            "selector": "div.ui-search-price__front-price",
+                "type": "text"
+        },
+        "moneda": {
+            "selector": "span.price-tag-symbol",
+                "type": "text"
+        },
+        "valor": {
+            "selector": "span.price-tag-fraction",
+                "type": "text"
+        },
+        "rango_m2_utiles": {
+            "selector": "li.ui-search-card-attributes__attribute:nth-child(1)",
+                "type": "text"
+        },
+        "rango_dormitorios": {
+            "selector": "li.ui-search-card-attributes__attribute:nth-child(2)",
+                "type": "text"
+        },
+        "rango_baños": {
+            "selector": "li.ui-search-card-attributes__attribute:nth-child(3)",
+                "type": "text"
+        },
+        "es_depto_venta": {
+            "selector": "span.ui-search-item__group__element.ui-search-item__subtitle",
+                "type": "text"
+        },
+        "ubicacion": {
+            "selector": "p.ui-search-item__group__element.ui-search-item__location",
+                "type": "text"
+        }
+    }
+}
+}
