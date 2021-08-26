@@ -29,3 +29,22 @@ for (let i = 1; i <= paginas; i++) {
         //next_stage({url, country: input.country, search: input.search});
     }
 }
+
+/*
+*
+*var url = `https://www.portalinmobiliario.com/venta`;
+navigate(url);
+let data = parse();
+var paginas = (parseInt(data.Paginass.replace('de ','')));
+console.log("paginas: "+paginas);
+for (let i = 1; i<=paginas; i++)
+{
+  var urlPg = url;
+  if (i>1){
+    urlPg += `/_Desde_${51*(i-1)}`;
+  }
+  console.log(urlPg);
+  //collect(parse().items);
+}
+*
+* */
