@@ -26,7 +26,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bright_data/portalinmobiliario" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -47,6 +47,7 @@
       <workItem from="1629810652782" duration="10179000" />
       <workItem from="1629833748916" duration="1349000" />
       <workItem from="1629901566275" duration="13459000" />
+      <workItem from="1630534680264" duration="776000" />
     </task>
     <servers />
   </component>
