@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af6b8244-0121-4eda-a69f-7a6546635f4b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bright_data/portalinmobiliario/url_collector/interaction_code.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bright_data/portalinmobiliario/#1.ciclo_paginacion/interaction_code.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bright_data/portalinmobiliario/#1.ciclo_paginacion/parser_code.js" beforeDir="false" afterPath="$PROJECT_DIR$/bright_data/portalinmobiliario/url_collector/parser_code.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bright_data/portalinmobiliario/#2.scrap_paginacion/parser_code.js" beforeDir="false" afterPath="$PROJECT_DIR$/bright_data/portalinmobiliario/#2.scrap_paginacion/parser_code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bright_data/portalinmobiliario/#2.scrap_paginacion/interaction_code.js" beforeDir="false" afterPath="$PROJECT_DIR$/bright_data/portalinmobiliario/data_collector/interaction_code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bright_data/portalinmobiliario/#2.scrap_paginacion/parser_code.js" beforeDir="false" afterPath="$PROJECT_DIR$/bright_data/portalinmobiliario/data_collector/parser_code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bright_data/portalinmobiliario/#3.scrap_producto_interno/interaction_code.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bright_data/portalinmobiliario/#3.scrap_producto_interno/parser_code.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
       <workItem from="1629833748916" duration="1349000" />
       <workItem from="1629901566275" duration="13459000" />
       <workItem from="1630534680264" duration="2581000" />
-      <workItem from="1631212734620" duration="2225000" />
+      <workItem from="1631212734620" duration="2545000" />
     </task>
     <servers />
   </component>
