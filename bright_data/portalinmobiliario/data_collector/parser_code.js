@@ -1,4 +1,9 @@
 {
+    "Paginass":{
+    "selector": "button.andes-tab.andes-tab--selected > div > span",
+        "type": "text"
+},
+
     "items": {
     "multi": true,
         "selector": "div.ui-pdp-container__row.ui-pdp-container__row--header",
@@ -143,6 +148,25 @@
 },
     "imgVideo": {
     "selector": "div.ui-pdp-thumbnail__picture:nth-child(2) > img.ui-pdp-image:nth-child(1)",
+        "type": "image"
+},
+    "titulos_caracteristicas": {
+    "multi": true,
+        "selector": "th.andes-table__header.andes-table__header--left.ui-pdp-specs__table__column.ui-pdp-specs__table__column-title",
+        "type": "text"
+},
+    "valores_caracteristicas": {
+    "multi": true,
+        "selector": "td.andes-table__column.andes-table__column--left.ui-pdp-specs__table__column",
+        "type": "text"
+},
+    "miniaturas": {
+    "multi": true,
+        "selector": "img.ui-pdp-image",
+        "type": "image"
+},
+    "gps": {
+    "selector": "div.ui-vip-location__map > div > img",
         "type": "image"
 }
 }
