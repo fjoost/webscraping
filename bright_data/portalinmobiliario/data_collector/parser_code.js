@@ -3,7 +3,6 @@
     "selector": "button.andes-tab.andes-tab--selected > div > span",
         "type": "text"
 },
-
     "items": {
     "multi": true,
         "selector": "div.ui-pdp-container__row.ui-pdp-container__row--header",
@@ -168,5 +167,32 @@
     "gps": {
     "selector": "div.ui-vip-location__map > div > img",
         "type": "image"
+},
+    "fonos": {
+    "selector": "seller_profile > ul > div > div:nth-child(1) > div > div > ul > li:nth-child(1)",
+        "type": "text"
+},
+    "items": {
+    "multi": true,
+        "selector": "#root-app > div > div.ui-pdp-container.ui-pdp-container--pdp > div > div.ui-pdp-container__col.col-2.ui-pdp-container--column-left.pb-40 > div.ui-pdp-container__col.col-1.ui-vip-core-container--content-left > div.ui-pdp-container__row.ui-pdp-container__row--technical-specifications > div > div.ui-pdp-specs__tabs > div > div.andes-tabs__wrapper.andes-tabs__wrapper-scrollable > div.andes-tabs",
+        "type": "object",
+        "children": {
+        "ambientes": {
+            "selector": "#root-app > div > div.ui-pdp-container.ui-pdp-container--pdp > div > div.ui-pdp-container__col.col-2.ui-pdp-container--column-left.pb-40 > div.ui-pdp-container__col.col-1.ui-vip-core-container--content-left > div.ui-pdp-container__row.ui-pdp-container__row--technical-specifications > div > div.ui-pdp-specs__tabs > div > div.andes-tabs__wrapper.andes-tabs__wrapper-scrollable > div.andes-tabs > button:nth-child(1)",
+                "type": "text"
+        },
+        "comodidadeesyequipamiento": {
+            "selector": "h1.ui-pdp-title",
+                "type": "text"
+        },
+        "caract_adicional": {
+            "selector": "p.ui-pdp-color--GRAY.ui-pdp-size--XSMALL.ui-pdp-family--REGULAR.ui-pdp-header__bottom-subtitle",
+                "type": "text"
+        },
+        "caract_esp": {
+            "selector": "p.ui-pdp-color--GRAY.ui-pdp-size--XSMALL.ui-pdp-family--REGULAR.ui-pdp-header__bottom-subtitle",
+                "type": "text"
+        }
+    }
 }
 }
