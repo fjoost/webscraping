@@ -1,13 +1,13 @@
 {
     "items": {
-        "multi": true,
-        "selector": "li.un-ress tp1",
+    "multi": true,
+        "selector": "li.un-ress.tp1",
         "type": "object",
         "children": {
-            "url": {
-                "selector": "a.c-imgres",
+        "url": {
+            "selector": "div.c-imgres>a",
                 "type": "link"
-            }
         }
     }
+}
 }

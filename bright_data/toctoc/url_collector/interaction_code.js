@@ -13,14 +13,14 @@ for (let i = 0; i < 2; i++) {
         "coquimbo", "bernardo-ohiggins", "maule", "biobio", "araucania",
         "los-lagos", "aysen", "magallanes-y-antart.", "metropolitana", "los-rios",
         "arica-y-parinacota", "nuble"];
-
+// 	for (let i = 0; i <= (1); i++) {
     for (let i = 0; i <= (regiones.length - 1); i++) {
         var urlPg = urlNg;
         urlPg += `/${regiones[i]}/${regiones[i]}`;
-        navigate(urlPg);
+        navigate(urlPg, {timeout: 45000});
+        wait('BUTTON#btnCargarMas');
         scroll_to('BUTTON#btnCargarMas');
+        collect(parse().items);
         click('BUTTON#btnCargarMas');
-//     wait('BUTTON#btnCargarMas');
-//     click('BUTTON#btnCargarMas');
     }
 }
