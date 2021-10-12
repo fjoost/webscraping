@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af6b8244-0121-4eda-a69f-7a6546635f4b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/bright_data/toctoc/data_collector/interaction_code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bright_data/toctoc/data_collector/parser_code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bright_data/toctoc/url_collector/interaction_code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bright_data/toctoc/url_collector/parser_code.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bright_data/portalinmobiliario/data_collector/parser_code.js" beforeDir="false" afterPath="$PROJECT_DIR$/bright_data/portalinmobiliario/data_collector/parser_code.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +34,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bright_data" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bright_data" />
       <recent name="$PROJECT_DIR$/bright_data/portalinmobiliario" />
     </key>
   </component>
@@ -56,7 +60,7 @@
       <workItem from="1631212734620" duration="3184000" />
       <workItem from="1631533694637" duration="8075000" />
       <workItem from="1633464992390" duration="7000" />
-      <workItem from="1633523840607" duration="4631000" />
+      <workItem from="1633523840607" duration="5489000" />
     </task>
     <servers />
   </component>
