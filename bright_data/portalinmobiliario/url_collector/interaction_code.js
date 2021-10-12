@@ -10,7 +10,8 @@ for (let i = 0; i < 2; i++) {
         "coquimbo", "la-araucania", "bernardo-ohiggins", "los-lagos", "de-los-rios",
         "magallanes-y-antartica-chilena", "maule", "metropolitana", "tarapaca", "valparaiso",
         "nuble"];
-    for (let i = 0; i <= (regiones.length - 1); i++) {
+    for (let i = 0; i <= (2); i++) {
+//   for (let i = 0; i <= (regiones.length - 1); i++) {
         var urlPg = urlNg;
         urlPg += `/${regiones[i]}`;
         navigate(urlPg);
