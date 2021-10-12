@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af6b8244-0121-4eda-a69f-7a6546635f4b" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bright_data/toctoc/url_collector/parser_code.js" beforeDir="false" afterPath="$PROJECT_DIR$/bright_data/toctoc/url_collector/parser_code.js" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/bright_data/portalinmobiliario/url_collector/interaction_code.js" beforeDir="false" afterPath="$PROJECT_DIR$/bright_data/portalinmobiliario/url_collector/interaction_code.js" afterDir="false" />
+>>>>>>> master
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
