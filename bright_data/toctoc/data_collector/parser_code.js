@@ -1,198 +1,121 @@
 {
-    "Paginass":{
-    "selector": "button.andes-tab.andes-tab--selected > div > span",
+    "nombre_ficha_publicacion": {
+    "selector": "h1.tt-ficha",
         "type": "text"
 },
-    "items": {
+    "detalle_1_ficha": {
+    "selector": "div.info-cabecera-ficha > h2",
+        "type": "text"
+},
+    "detalle_2_ficha": {
     "multi": true,
-        "selector": "div.ui-pdp-container__row.ui-pdp-container__row--header",
-        "type": "object",
-        "children": {
-        "tipoVenta": {
-            "selector": "span.ui-pdp-subtitle",
-                "type": "text"
-        },
-        "nombrePublicacion": {
-            "selector": "h1.ui-pdp-title",
-                "type": "text"
-        },
-        "publicadoHace": {
-            "selector": "p.ui-pdp-color--GRAY.ui-pdp-size--XSMALL.ui-pdp-family--REGULAR.ui-pdp-header__bottom-subtitle",
-                "type": "text"
-        }
-    }
-},
-    "moneda": {
-    "selector": "span.price-tag-amount:nth-child(3) > span.price-tag-symbol",
+        "selector": "ul.supdorba > li",
         "type": "text"
 },
-    "valor": {
-    "selector": "span.price-tag-amount:nth-child(3) > span.price-tag-fraction",
+    "valor1_publicacion": {
+    "selector": "div.precio-b > strong:nth-child(1)",
         "type": "text"
 },
-    "valorCLP": {
-    "selector": "span.price-tag.ui-pdp-price__part > span.price-tag-amount:nth-child(2) > span.price-tag-fraction",
+    "valor2_publicacion": {
+    "selector": "em.precioAlternativo > strong:nth-child(1)",
+        "type": "currency"
+},
+    "cantidad_de_visitas": {
+    "selector": "ul[id=\"counter-visitas\"] > li:nth-child(1)",
         "type": "text"
 },
-    "m2Totales": {
-    "selector": "div.ui-pdp-highlighted-specs-res__icon-label:nth-child(1) > span.ui-pdp-color--BLACK.ui-pdp-size--SMALL.ui-pdp-family--REGULAR.ui-pdp-label",
+    "cantidad_de_solicitudes": {
+    "selector": "ul[id=\"counter-visitas\"] > li:nth-child(2)",
         "type": "text"
 },
-    "dormitorios": {
-    "selector": "div.ui-pdp-highlighted-specs-res__icon-label:nth-child(2) > span.ui-pdp-color--BLACK.ui-pdp-size--SMALL.ui-pdp-family--REGULAR.ui-pdp-label",
+    "anio.informacion_basica": {
+    "selector": "ul.info_ficha > li:nth-child(1)",
         "type": "text"
 },
-    "banios": {
-    "selector": "div.ui-pdp-highlighted-specs-res__icon-label:nth-child(3) > span.ui-pdp-color--BLACK.ui-pdp-size--SMALL.ui-pdp-family--REGULAR.ui-pdp-label",
+    "dormitorios.informacion_basica": {
+    "selector": "ul.info_ficha > li.dormitorios",
         "type": "text"
 },
-    "ubicacionText": {
-    "selector": "div.ui-pdp-media__body:nth-child(2) > p.ui-pdp-color--BLACK.ui-pdp-size--SMALL.ui-pdp-family--REGULAR.ui-pdp-media__title",
+    "banios.informacion_basica": {
+    "selector": "ul.info_ficha > li.baños",
         "type": "text"
 },
-    "precioPorM2": {
-    "selector": "p.ui-pdp-color--BLACK.ui-pdp-size--XSMALL.ui-pdp-family--REGULAR.ui-pdp-price-comparison__extra-info-element-value",
+    "sup_terreno.informacion_basica": {
+    "selector": "li.metrosTerreno",
         "type": "text"
 },
-    "vendedor": {
-    "selector": "h3.ui-pdp-color--BLACK.ui-pdp-size--LARGE.ui-pdp-family--REGULAR",
+    "m_utiles.informacion_basica": {
+    "selector": "li.metrosUtiles",
         "type": "text"
 },
-    "tipoNegocio": {
-    "selector": "p.ui-pdp-color--GRAY.ui-pdp-family--REGULAR.ui-vip-profile-info__subtitle",
+    "avaluo_fiscal.informacion_basisca": {
+    "selector": "li.actualiza_ajax:nth-child(13)",
         "type": "text"
 },
-    "fonoVendedor": {
-    "selector": "ul:nth-child(1) > li:nth-child(1)",
+    "contrib_trimes.informacion_basica": {
+    "selector": "li.actualiza_ajax:nth-child(14)",
         "type": "text"
 },
-    "wspVendedor": {
-    "selector": "ul:nth-child(1) > li:nth-child(2)",
+    "destino.informacion_basica": {
+    "selector": "li.destino",
         "type": "text"
 },
-    "superficieTotal": {
-    "selector": "tr.andes-table__row:nth-child(1) span.andes-table__column--value",
+    "fecha_publicacion.informacion_basica": {
+    "selector": "li:nth-child(16)",
         "type": "text"
 },
-    "superficieUtil": {
-    "selector": "tr.andes-table__row:nth-child(2) span.andes-table__column--value",
+    "dividendo_estimado.informacion_basica": {
+    "selector": "li.dividendoEstimado",
         "type": "text"
 },
-    "dormitoriosTabla": {
-    "selector": "tr.andes-table__row:nth-child(3) span.andes-table__column--value",
+    "informacion_adicional": {
+    "selector": "ul.list_adicional.clearfix > li:nth-child(1)",
         "type": "text"
 },
-    "baniosTabla": {
-    "selector": "tr.andes-table__row:nth-child(4) span.andes-table__column--value",
+    "panel.informacion_basica": {
+    "selector": "div[id=\"partialInformacionBasica\"] > div[id=\"informacionBasica\"] > div.panel-body:nth-child(2)",
         "type": "text"
 },
-    "estacionamientos": {
-    "selector": "tr.andes-table__row:nth-child(5) span.andes-table__column--value",
+    "m_constr.informacion_basica": {
+    "selector": "li.metrosConstruidos",
         "type": "text"
 },
-    "bodegas": {
-    "selector": "tr.andes-table__row:nth-child(6) span.andes-table__column--value",
+    "orientacion.informacion_basica": {
+    "selector": "li.orientacion",
         "type": "text"
 },
-    "cantidadPisos": {
-    "selector": "tr.andes-table__row:nth-child(7) span.andes-table__column--value",
+    "estacionamientos.informacion_basica": {
+    "selector": "li.estacionamientos",
         "type": "text"
 },
-    "departamentosPorPiso": {
-    "selector": "tr.andes-table__row:nth-child(8) span.andes-table__column--value",
+    "bodegas.informacion_basica": {
+    "selector": "li.bodegas",
         "type": "text"
 },
-    "numeroPisoPropiedad": {
-    "selector": "tr.andes-table__row:nth-child(9) span.andes-table__column--value",
+    "distribucion.single.informacion_adicional": {
+    "selector": "div.col-sm-4:nth-child(1) > ul.list_adicional:nth-child(2)",
         "type": "text"
 },
-    "orientacion": {
-    "selector": "tr.andes-table__row:nth-child(10) span.andes-table__column--value",
+    "servicios.single.informacion_adicional": {
+    "selector": "div.col-sm-4:nth-child(2) > ul.list_adicional:nth-child(2)",
         "type": "text"
 },
-    "antiguedad": {
-    "selector": "tr.andes-table__row:nth-child(11) span.andes-table__column--value",
+    "cocina.single.informacion_adicional": {
+    "selector": "div.col-sm-4:nth-child(3) > ul.list_adicional:nth-child(2)",
         "type": "text"
 },
-    "gastosComunes": {
-    "selector": "tr.andes-table__row:nth-child(12) span.andes-table__column--value",
+    "otros.single.informacion_adicional": {
+    "selector": "div.col-sm-4:nth-child(4) > ul.list_adicional:nth-child(2)",
         "type": "text"
 },
-    "recorrerAmbientes": {
+    "h5.title.list_adicional.informacion_adicional": {
     "multi": true,
-        "selector": "p.ui-pdp-family--REGULAR.ui-pdp-specs__specs-list",
+        "selector": "div.col-sm-4 > h5",
         "type": "text"
 },
-    "recorrerPuntos": {
+    "multi.list_adicional.informacion_adicional": {
     "multi": true,
-        "selector": "div.ui-vip-poi__item-title > span.ui-pdp-color--BLACK.ui-pdp-size--XSMALL.ui-pdp-family--REGULAR",
+        "selector": "ul.list_adicional:nth-child(2)",
         "type": "text"
-},
-    "recorrerDistanciaPuntos": {
-    "multi": true,
-        "selector": "span.ui-pdp-color--GRAY.ui-pdp-size--XSMALL.ui-pdp-family--REGULAR",
-        "type": "text"
-},
-    "descripcion": {
-    "selector": "p.ui-pdp-description__content",
-        "type": "text"
-},
-    "numeroPublicacion": {
-    "selector": "p.ui-pdp-color--BLACK.ui-pdp-family--REGULAR.ui-vpp-denounce__info > span.ui-pdp-color--BLACK.ui-pdp-family--SEMIBOLD",
-        "type": "text"
-},
-    "url1Img": {
-    "selector": "div.ui-pdp-thumbnail__picture:nth-child(1) > img.ui-pdp-image:nth-child(1)",
-        "type": "image"
-},
-    "imgVideo": {
-    "selector": "div.ui-pdp-thumbnail__picture:nth-child(2) > img.ui-pdp-image:nth-child(1)",
-        "type": "image"
-},
-    "titulos_caracteristicas": {
-    "multi": true,
-        "selector": "th.andes-table__header.andes-table__header--left.ui-pdp-specs__table__column.ui-pdp-specs__table__column-title",
-        "type": "text"
-},
-    "valores_caracteristicas": {
-    "multi": true,
-        "selector": "td.andes-table__column.andes-table__column--left.ui-pdp-specs__table__column",
-        "type": "text"
-},
-    "miniaturas": {
-    "multi": true,
-        "selector": "img.ui-pdp-image",
-        "type": "image"
-},
-    "gps": {
-    "selector": "div.ui-vip-location__map > div > img",
-        "type": "image"
-},
-    "fonos": {
-    "selector": "seller_profile > ul > div > div:nth-child(1) > div > div > ul > li:nth-child(1)",
-        "type": "text"
-},
-    "items": {
-    "multi": true,
-        "selector": "#root-app > div > div.ui-pdp-container.ui-pdp-container--pdp > div > div.ui-pdp-container__col.col-2.ui-pdp-container--column-left.pb-40 > div.ui-pdp-container__col.col-1.ui-vip-core-container--content-left > div.ui-pdp-container__row.ui-pdp-container__row--technical-specifications > div > div.ui-pdp-specs__tabs > div > div.andes-tabs__wrapper.andes-tabs__wrapper-scrollable > div.andes-tabs",
-        "type": "object",
-        "children": {
-        "ambientes": {
-            "selector": "#root-app > div > div.ui-pdp-container.ui-pdp-container--pdp > div > div.ui-pdp-container__col.col-2.ui-pdp-container--column-left.pb-40 > div.ui-pdp-container__col.col-1.ui-vip-core-container--content-left > div.ui-pdp-container__row.ui-pdp-container__row--technical-specifications > div > div.ui-pdp-specs__tabs > div > div.andes-tabs__wrapper.andes-tabs__wrapper-scrollable > div.andes-tabs > button:nth-child(1)",
-                "type": "text"
-        },
-        "comodidadeesyequipamiento": {
-            "selector": "h1.ui-pdp-title",
-                "type": "text"
-        },
-        "caract_adicional": {
-            "selector": "p.ui-pdp-color--GRAY.ui-pdp-size--XSMALL.ui-pdp-family--REGULAR.ui-pdp-header__bottom-subtitle",
-                "type": "text"
-        },
-        "caract_esp": {
-            "selector": "p.ui-pdp-color--GRAY.ui-pdp-size--XSMALL.ui-pdp-family--REGULAR.ui-pdp-header__bottom-subtitle",
-                "type": "text"
-        }
-    }
 }
 }
