@@ -1,7 +1,7 @@
 {
     "items": {
     "multi": true,
-        "selector": "li.un-ress.tp1",
+        "selector": "li.un-ress.tp2",
         "type": "object",
         "children": {
         "url": {
