@@ -11,16 +11,20 @@ for (let i = 0; i < 2; i++) {
 
     let regiones = ["tarapaca", "antofagasta", "atacama", "coquimbo", "valparaiso",
         "coquimbo", "bernardo-ohiggins", "maule", "biobio", "araucania",
-        "los-lagos", "aysen", "magallanes-y-antart.", "metropolitana", "los-rios",
-        "arica-y-parinacota", "nuble"];
-    for (let i = 0; i <= (1); i++) {
-//     for (let i = 0; i <= (regiones.length - 1); i++) {
+        "los-lagos", "aysen", "metropolitana", "los-rios",
+        "arica-y-parinacota", "nuble", "magallanes-y-antart."];
+// 	for (let i = 0; i <= (1); i++) {
+    for (let i = 0; i <= (regiones.length - 1); i++) {
         var urlPg = urlNg;
         urlPg += `/${regiones[i]}/${regiones[i]}`;
         navigate(urlPg, {timeout: 60000});
         wait('BUTTON#btnCargarMas', {timeout: 60000});
         //scroll_to('BUTTON#btnCargarMas');
-        collect(parse().items);
+        collect(parse().items1);
+        collect(parse().items2);
+        collect(parse().items3);
+        collect(parse().items4);
+        collect(parse().items5);
         //click('BUTTON#btnCargarMas');
     }
 }
