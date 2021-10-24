@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af6b8244-0121-4eda-a69f-7a6546635f4b" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bright_data/portalinmobiliario/#1.ciclo_paginacion/interaction_code.js" beforeDir="false" afterPath="$PROJECT_DIR$/bright_data/portalinmobiliario/#1.ciclo_paginacion/interaction_code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bright_data/toctoc/url_collector/parser_code.js" beforeDir="false" afterPath="$PROJECT_DIR$/bright_data/toctoc/url_collector/parser_code.js" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/bright_data/portalinmobiliario/url_collector/interaction_code.js" beforeDir="false" afterPath="$PROJECT_DIR$/bright_data/portalinmobiliario/url_collector/interaction_code.js" afterDir="false" />
+>>>>>>> master
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +20,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/bright_data/portalinmobiliario/url_collector/interaction_code.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/bright_data/portalinmobiliario/data_collector/parser_code.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/bright_data/portalinmobiliario/data_collector/interaction_code.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1xAvLVJ60AMBqxa9FPmf7FPY4kD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,13 +35,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bright_data" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bright_data" />
       <recent name="$PROJECT_DIR$/bright_data/portalinmobiliario" />
     </key>
   </component>
@@ -47,7 +57,11 @@
       <workItem from="1629810652782" duration="10179000" />
       <workItem from="1629833748916" duration="1349000" />
       <workItem from="1629901566275" duration="13459000" />
-      <workItem from="1630534680264" duration="776000" />
+      <workItem from="1630534680264" duration="2581000" />
+      <workItem from="1631212734620" duration="3184000" />
+      <workItem from="1631533694637" duration="8075000" />
+      <workItem from="1633464992390" duration="7000" />
+      <workItem from="1633523840607" duration="6181000" />
     </task>
     <servers />
   </component>
