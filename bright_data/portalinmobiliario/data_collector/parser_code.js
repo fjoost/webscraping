@@ -172,6 +172,13 @@
     "selector": "seller_profile > ul > div > div:nth-child(1) > div > div > ul > li:nth-child(1)",
         "type": "text"
 },
+{
+    "img_": {
+      "multi": true,
+      "selector": "figure.ui-pdp-gallery__figure:nth-child(2) > img.ui-pdp-image.ui-pdp-gallery__figure__image",
+      "type": "image"
+    }
+  },
     "items": {
     "multi": true,
         "selector": "#root-app > div > div.ui-pdp-container.ui-pdp-container--pdp > div > div.ui-pdp-container__col.col-2.ui-pdp-container--column-left.pb-40 > div.ui-pdp-container__col.col-1.ui-vip-core-container--content-left > div.ui-pdp-container__row.ui-pdp-container__row--technical-specifications > div > div.ui-pdp-specs__tabs > div > div.andes-tabs__wrapper.andes-tabs__wrapper-scrollable > div.andes-tabs",
